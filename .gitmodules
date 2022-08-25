@@ -1,3 +1,6 @@
 [submodule "Gigahawk.pretty"]
 	path = Gigahawk.pretty
 	url = https://github.com/Gigahawk/Gigahawk.pretty.git
+[submodule "lcsc-kicad"]
+	path = lcsc-kicad
+	url = https://github.com/Gigahawk/lcsc-kicad.git
