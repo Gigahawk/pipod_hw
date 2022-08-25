@@ -1,12 +1,14 @@
 (kicad_pcb (version 20211014) (generator pcbnew)
 
   (general
-    (thickness 1.6)
+    (thickness 0.7412)
   )
 
   (paper "A4")
   (layers
     (0 "F.Cu" signal)
+    (1 "In1.Cu" signal)
+    (2 "In2.Cu" signal)
     (31 "B.Cu" signal)
     (32 "B.Adhes" user "B.Adhesive")
     (33 "F.Adhes" user "F.Adhesive")
@@ -38,6 +40,23 @@
   )
 
   (setup
+    (stackup
+      (layer "F.SilkS" (type "Top Silk Screen") (color "White"))
+      (layer "F.Paste" (type "Top Solder Paste"))
+      (layer "F.Mask" (type "Top Solder Mask") (color "Purple") (thickness 0.01))
+      (layer "F.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 1" (type "prepreg") (thickness 0.2104) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "In1.Cu" (type "copper") (thickness 0.0152))
+      (layer "dielectric 2" (type "core") (thickness 0.2) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "In2.Cu" (type "copper") (thickness 0.0152))
+      (layer "dielectric 3" (type "prepreg") (thickness 0.2104) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "B.Cu" (type "copper") (thickness 0.035))
+      (layer "B.Mask" (type "Bottom Solder Mask") (color "Purple") (thickness 0.01))
+      (layer "B.Paste" (type "Bottom Solder Paste"))
+      (layer "B.SilkS" (type "Bottom Silk Screen") (color "White"))
+      (copper_finish "None")
+      (dielectric_constraints yes)
+    )
     (pad_to_mask_clearance 0)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
@@ -579,8 +598,8 @@
   (gr_text "Connect LCK_COM to DGND to unlock controls" (at 159.554 82.032) (layer "Cmts.User") (tstamp 661ca2ba-bce5-4308-99a6-de333a625515)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
-  (gr_text "Board thickness: 0.8mm" (at 133.9 29.2) (layer "Cmts.User") (tstamp c6462399-f2e4-4f1a-b34a-b49a04c8bdb9)
-    (effects (font (size 5 5) (thickness 0.5)))
+  (gr_text "Layers: 4\nPCB thickness: 0.8mm\nImpedance: Yes (JLC7628)\n" (at 164.81 54.63) (layer "Cmts.User") (tstamp c6462399-f2e4-4f1a-b34a-b49a04c8bdb9)
+    (effects (font (size 5 5) (thickness 0.5)) (justify left))
   )
 
   (segment (start 124.248 61.712) (end 124.256999 61.720999) (width 0.25) (layer "F.Cu") (net 0) (tstamp 0b110cbc-e477-4bdc-9c81-26a3d588d354))
