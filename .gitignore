@@ -26,3 +26,5 @@ fp-info-cache
 
 # kicad 6 backups
 *-backups
+
+**.ipynb_checkpoints
