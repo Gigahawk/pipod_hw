@@ -28,3 +28,4 @@ fp-info-cache
 *-backups
 
 **.ipynb_checkpoints
+**#auto_saved_files#

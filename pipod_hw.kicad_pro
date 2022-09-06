@@ -431,6 +431,30 @@
     [
       "9641055c-ce4b-4f2f-881f-d2622ca62ef8",
       "Power"
+    ],
+    [
+      "f4aab422-c542-43e3-8476-eae6a2df1847",
+      "SMC"
+    ],
+    [
+      "8ab03be1-4611-483d-92bd-219df6757e0e",
+      "USB"
+    ],
+    [
+      "b7d431dc-5594-4595-8c63-4633098b8c6b",
+      "Clickwheel"
+    ],
+    [
+      "eadbe3e2-ad3f-4ca7-9baa-62c6cdfbb2dc",
+      "Headphone"
+    ],
+    [
+      "1b9367eb-6062-4145-acac-45f8e2b4ead5",
+      "Display"
+    ],
+    [
+      "17277ecf-326c-453e-9136-7d67138ec3e0",
+      "Load Switches"
     ]
   ],
   "text_variables": {}
