@@ -137,7 +137,11 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|2374900|393700|17c02880-df6f-4797-b976-af8c3295fb23|00000000-0000-0000-0000-000000000000",
+      "lib_symbol_issues|635000|800100|ebfe9dc2-99e3-4155-83c5-42998cab10b6|00000000-0000-0000-0000-000000000000",
+      "no_connect_connected|2241550|882650|1063b436-ca88-4fd1-adcc-775a2a8820f9|00000000-0000-0000-0000-000000000000"
+    ],
     "meta": {
       "version": 0
     },
@@ -455,6 +459,14 @@
     [
       "17277ecf-326c-453e-9136-7d67138ec3e0",
       "Load Switches"
+    ],
+    [
+      "47c80a0b-4e54-4420-855d-26a9531e4652",
+      "Audio"
+    ],
+    [
+      "b0bb8e22-3ad5-4c36-b10d-7d4a51e22334",
+      "Pi"
     ]
   ],
   "text_variables": {}
