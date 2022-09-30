@@ -505,6 +505,9 @@
     (path "/17277ecf-326c-453e-9136-7d67138ec3e0/bbd01d41-6fd6-44cc-b21d-f3fd58dd114b"
       (reference "#PWR0125") (unit 1) (value "+3V3") (footprint "")
     )
+    (path "/eadbe3e2-ad3f-4ca7-9baa-62c6cdfbb2dc/a3a14742-7fdc-40a0-8114-99100853e097"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/9641055c-ce4b-4f2f-881f-d2622ca62ef8/69434326-4e70-4b27-bc99-d48bcdec69df"
       (reference "C1") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
@@ -703,6 +706,9 @@
     (path "/1b9367eb-6062-4145-acac-45f8e2b4ead5/c3a6728c-dacb-445c-9f4d-b321b21cbd2e"
       (reference "Q3") (unit 1) (value "BSS138") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
+    (path "/eadbe3e2-ad3f-4ca7-9baa-62c6cdfbb2dc/0487b507-c9a1-41bc-859b-2c8e3fe6b107"
+      (reference "Q?") (unit 1) (value "TPNTK3139PT1G") (footprint "lcsc:SOT-723_L1.2-W0.8-P0.40-LS1.2-BR")
+    )
     (path "/9641055c-ce4b-4f2f-881f-d2622ca62ef8/02ba5893-53ad-434b-8db3-db259915966b"
       (reference "R1") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
@@ -855,6 +861,12 @@
     )
     (path "/b0bb8e22-3ad5-4c36-b10d-7d4a51e22334/5bbf992f-5505-4f5b-b6ef-00b83a1bebef"
       (reference "R52") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/eadbe3e2-ad3f-4ca7-9baa-62c6cdfbb2dc/4a93418f-8918-4c8a-be3e-8ac6664b68e9"
+      (reference "R?") (unit 1) (value "10k") (footprint "")
+    )
+    (path "/eadbe3e2-ad3f-4ca7-9baa-62c6cdfbb2dc/da0dae29-42d4-483a-9ab1-6e5fb7494f0a"
+      (reference "R?") (unit 1) (value "DNI") (footprint "")
     )
     (path "/f4aab422-c542-43e3-8476-eae6a2df1847/dc354bb6-7b51-4421-92e0-ea2af5ff7fbb"
       (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
