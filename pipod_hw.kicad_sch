@@ -506,7 +506,10 @@
       (reference "#PWR0125") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/eadbe3e2-ad3f-4ca7-9baa-62c6cdfbb2dc/a3a14742-7fdc-40a0-8114-99100853e097"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+      (reference "#PWR0126") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/eadbe3e2-ad3f-4ca7-9baa-62c6cdfbb2dc/980f1b38-2c20-4548-a5cb-557b915d173b"
+      (reference "#PWR0127") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/9641055c-ce4b-4f2f-881f-d2622ca62ef8/69434326-4e70-4b27-bc99-d48bcdec69df"
       (reference "C1") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -685,17 +688,17 @@
     (path "/1b9367eb-6062-4145-acac-45f8e2b4ead5/7a2d642d-f5b4-4e89-95a2-88a1486a2af5"
       (reference "DISP1") (unit 1) (value "STP240320_0200B") (footprint "Connector_Molex:Molex_SlimStack_54722-0164_2x08_P0.50mm_Vertical")
     )
-    (path "/b7d431dc-5594-4595-8c63-4633098b8c6b/c305409a-7a73-43a9-a321-d13ae9c39053"
-      (reference "J1") (unit 1) (value "SFV8R-2STE1HLF") (footprint "Gigahawk:SFV8R2STE1HLF")
-    )
-    (path "/eadbe3e2-ad3f-4ca7-9baa-62c6cdfbb2dc/bc953ae4-816e-4f72-af13-5521c89d0280"
-      (reference "J2") (unit 1) (value "SFV14R-2STE1HLF") (footprint "Gigahawk:SFV14R2STE1HLF")
-    )
     (path "/9641055c-ce4b-4f2f-881f-d2622ca62ef8/17c02880-df6f-4797-b976-af8c3295fb23"
       (reference "J3") (unit 1) (value "Conn_01x03_Male") (footprint "Gigahawk:Molex_PicoBlade_53047-0310_1x03_P1.25mm_Vertical")
     )
     (path "/8ab03be1-4611-483d-92bd-219df6757e0e/ebfe9dc2-99e3-4155-83c5-42998cab10b6"
       (reference "J7") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Gigahawk:USB_C_Receptacle_GCT_USB4085")
+    )
+    (path "/eadbe3e2-ad3f-4ca7-9baa-62c6cdfbb2dc/07da026b-13d4-4bd7-a855-7d439e0a4d09"
+      (reference "P1") (unit 1) (value "FPC0.5MM14PPulltypeH2.0mmPickup") (footprint "lcsc:FPC-SMD_14P-L12.5-W5.4-P0.50")
+    )
+    (path "/b7d431dc-5594-4595-8c63-4633098b8c6b/05aa2b87-1570-4d12-81d7-0e98db515e0c"
+      (reference "P2") (unit 1) (value "FPC0.5MM8PPulltypeH2.0mmPickup") (footprint "lcsc:FPC-SMD_AFC07-S08ECC-00")
     )
     (path "/9641055c-ce4b-4f2f-881f-d2622ca62ef8/47b81bb6-69c7-42c5-810a-6afe7062d3a9"
       (reference "Q1") (unit 1) (value "DMP1045U-7") (footprint "lcsc:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR")
@@ -707,7 +710,7 @@
       (reference "Q3") (unit 1) (value "BSS138") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/eadbe3e2-ad3f-4ca7-9baa-62c6cdfbb2dc/0487b507-c9a1-41bc-859b-2c8e3fe6b107"
-      (reference "Q?") (unit 1) (value "TPNTK3139PT1G") (footprint "lcsc:SOT-723_L1.2-W0.8-P0.40-LS1.2-BR")
+      (reference "Q4") (unit 1) (value "TPNTK3139PT1G") (footprint "lcsc:SOT-723_L1.2-W0.8-P0.40-LS1.2-BR")
     )
     (path "/9641055c-ce4b-4f2f-881f-d2622ca62ef8/02ba5893-53ad-434b-8db3-db259915966b"
       (reference "R1") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -741,6 +744,9 @@
     )
     (path "/9641055c-ce4b-4f2f-881f-d2622ca62ef8/d05f12ce-0aec-4b4a-960c-8fb33ee9b255"
       (reference "R11") (unit 1) (value "DNI") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/eadbe3e2-ad3f-4ca7-9baa-62c6cdfbb2dc/da0dae29-42d4-483a-9ab1-6e5fb7494f0a"
+      (reference "R12") (unit 1) (value "DNI") (footprint "")
     )
     (path "/f4aab422-c542-43e3-8476-eae6a2df1847/0a3de141-38e2-4729-972e-41552c2c892a"
       (reference "R13") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -863,10 +869,7 @@
       (reference "R52") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/eadbe3e2-ad3f-4ca7-9baa-62c6cdfbb2dc/4a93418f-8918-4c8a-be3e-8ac6664b68e9"
-      (reference "R?") (unit 1) (value "10k") (footprint "")
-    )
-    (path "/eadbe3e2-ad3f-4ca7-9baa-62c6cdfbb2dc/da0dae29-42d4-483a-9ab1-6e5fb7494f0a"
-      (reference "R?") (unit 1) (value "DNI") (footprint "")
+      (reference "R53") (unit 1) (value "10k") (footprint "")
     )
     (path "/f4aab422-c542-43e3-8476-eae6a2df1847/dc354bb6-7b51-4421-92e0-ea2af5ff7fbb"
       (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
