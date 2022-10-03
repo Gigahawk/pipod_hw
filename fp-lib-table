@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name "Gigahawk")(type "KiCad")(uri "${KIPRJMOD}/Gigahawk.pretty")(options "")(descr ""))
   (lib (name "lcsc")(type "KiCad")(uri "${KIPRJMOD}/lcsc-kicad/lcsc.pretty")(options "")(descr ""))
+  (lib (name "pipod_hw")(type "KiCad")(uri "${KIPRJMOD}/pipod_hw.pretty")(options "")(descr ""))
 )

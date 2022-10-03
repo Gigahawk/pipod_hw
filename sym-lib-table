@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name "gigahawk")(type "KiCad")(uri "${KIPRJMOD}/Gigahawk.pretty/gigahawk.kicad_sym")(options "")(descr ""))
   (lib (name "lcsc")(type "KiCad")(uri "${KIPRJMOD}/lcsc-kicad/lcsc.kicad_sym")(options "")(descr ""))
+  (lib (name "pipod_hw")(type "KiCad")(uri "${KIPRJMOD}/pipod_hw.kicad_sym")(options "")(descr ""))
 )
