@@ -7,4 +7,5 @@ https://www.pcbway.com/multi-layer-laminated-structure.html
 
 
 Calculation done using KiCad's impedance caclculator:
-![usb_diff_calculations](./images/usb_diff_calculations.png)
+![usb_diff_calculations](./images/usb_diff_calc_0.1mm_gap.png)
+![usb_diff_calculations](./images/usb_diff_calc_0.2mm_gap.png)
