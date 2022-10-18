@@ -53,6 +53,16 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.1,
+          "via_gap": 0.1,
+          "width": 0.185954
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 0.218591
         }
       ],
       "drc_exclusions": [],
@@ -119,12 +129,27 @@
         "use_height_for_length_calcs": true
       },
       "track_widths": [
-        0.0
+        0.0,
+        0.16,
+        0.18,
+        0.2,
+        0.25,
+        0.4,
+        0.8,
+        1.0
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false,
@@ -137,7 +162,17 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|2374900|393700|17c02880-df6f-4797-b976-af8c3295fb23|00000000-0000-0000-0000-000000000000",
+      "lib_symbol_issues|2616200|787400|5722c5c4-8626-446d-9666-d9813f74a54f|00000000-0000-0000-0000-000000000000",
+      "lib_symbol_issues|635000|800100|ebfe9dc2-99e3-4155-83c5-42998cab10b6|00000000-0000-0000-0000-000000000000",
+      "pin_to_pin|1308100|406400|1d016e76-d50f-4fc7-a1f7-6211534a1591|ac3d64f7-fb36-4c37-8270-85d4927b09f4",
+      "pin_to_pin|1701800|393700|b04159c9-7c53-423c-9723-d911bdc5e3bf|921da9d8-bf28-414f-b99f-fc4a4c1014f6",
+      "pin_to_pin|698500|723900|cd419789-ecdd-4e5d-95a6-3ca114415665|1704382e-5d76-4e9c-8716-4887d36cc6d0",
+      "pin_to_pin|711200|393700|3387cb8f-cfe0-4a69-b20b-b98c6623308f|7d6afb7f-7fb3-414c-82d7-18f3366323de",
+      "pin_to_pin|723900|1308100|0982f98b-f02e-47c4-a93d-4f8bb2004a43|249e3d01-7385-4325-989c-e6c3c9a9027a",
+      "power_pin_not_driven|1130300|774700|f72170c6-b554-4d64-853a-4ccf94ce1ab0|00000000-0000-0000-0000-000000000000"
+    ],
     "meta": {
       "version": 0
     },
