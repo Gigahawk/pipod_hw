@@ -847,12 +847,6 @@
     (path "/b0bb8e22-3ad5-4c36-b10d-7d4a51e22334/c5850e11-500c-4afe-a940-57198437c49b"
       (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
     )
-    (path "/b0bb8e22-3ad5-4c36-b10d-7d4a51e22334/92d3ff33-a56f-47b9-a155-1bb3f2f205ba"
-      (reference "#PWR0130") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/b0bb8e22-3ad5-4c36-b10d-7d4a51e22334/cc6524eb-94f3-4dfa-bdaa-99b0ca25d5ec"
-      (reference "#PWR0131") (unit 1) (value "GND") (footprint "")
-    )
     (path "/b0bb8e22-3ad5-4c36-b10d-7d4a51e22334/1187d984-3ec5-4c88-9c0f-ce193ae40d3e"
       (reference "#PWR0132") (unit 1) (value "GND") (footprint "")
     )
@@ -1069,11 +1063,8 @@
     (path "/eadbe3e2-ad3f-4ca7-9baa-62c6cdfbb2dc/d28109c7-b78c-4947-8c2b-f2db0f57884a"
       (reference "J4") (unit 1) (value "SFV14R-2STE1HLF") (footprint "Gigahawk:SFV14R2STE1HLF")
     )
-    (path "/b0bb8e22-3ad5-4c36-b10d-7d4a51e22334/31ba89c8-dd03-4cdd-9ba7-3f7d0aded6a1"
-      (reference "J5") (unit 1) (value "2-1734839-0") (footprint "Gigahawk:2-1734839-0")
-    )
-    (path "/b0bb8e22-3ad5-4c36-b10d-7d4a51e22334/438cdc4b-29bc-4761-adfd-abce00a80500"
-      (reference "J6") (unit 1) (value "2-1734839-0") (footprint "Gigahawk:2-1734839-0")
+    (path "/b0bb8e22-3ad5-4c36-b10d-7d4a51e22334/49de7425-4436-4e21-a82c-2cac677801b5"
+      (reference "J5") (unit 1) (value "2-1734839-5") (footprint "Gigahawk:217348395")
     )
     (path "/9641055c-ce4b-4f2f-881f-d2622ca62ef8/e2753e1f-594c-47fc-9a68-ae587552bc7e"
       (reference "L1") (unit 1) (value "1u") (footprint "Inductor_SMD:L_Vishay_IFSC-1515AH_4x4x1.8mm")
