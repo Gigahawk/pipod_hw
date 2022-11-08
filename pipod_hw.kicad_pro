@@ -414,7 +414,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "pipod_hw.dsn",
       "step": "pipod_hw.step",
       "vrml": "pipod_hw.wrl"
     },
