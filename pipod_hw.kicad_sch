@@ -406,10 +406,10 @@
     (property "Reference" "J6" (id 0) (at 58.42 81.2799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 58.42 83.8199 0)
+    (property "Value" "S7051-42R" (id 1) (at 58.42 83.8199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 58.42 80.01 0)
+    (property "Footprint" "Gigahawk:S705142R" (id 2) (at 58.42 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://cdn.harwin.com/pdfs/S7051R.pdf" (id 3) (at 58.42 82.55 0)
@@ -1038,6 +1038,12 @@
     (path "/9641055c-ce4b-4f2f-881f-d2622ca62ef8/fe94a5ea-b4c3-42c1-8dd7-afd0f2f6390e"
       (reference "#PWR0141") (unit 1) (value "GND") (footprint "")
     )
+    (path "/f4aab422-c542-43e3-8476-eae6a2df1847/c4ed1f25-8011-4f17-b9b7-a4903f46d522"
+      (reference "#PWR0142") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f4aab422-c542-43e3-8476-eae6a2df1847/f0226c4c-3d26-444f-b8c4-b9528f9282f3"
+      (reference "#PWR0143") (unit 1) (value "GND") (footprint "")
+    )
     (path "/9641055c-ce4b-4f2f-881f-d2622ca62ef8/e768d9dc-f7c9-45e3-99e1-a1498a2ff958"
       (reference "C1") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
@@ -1294,10 +1300,10 @@
       (reference "R11") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/f4aab422-c542-43e3-8476-eae6a2df1847/0a3de141-38e2-4729-972e-41552c2c892a"
-      (reference "R12") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R12") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/f4aab422-c542-43e3-8476-eae6a2df1847/75e0d85d-82be-411b-99af-60d91d3d58e7"
-      (reference "R13") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R13") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/f4aab422-c542-43e3-8476-eae6a2df1847/bafa32ec-a838-4599-8bed-936054011aef"
       (reference "R14") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -1400,6 +1406,12 @@
     )
     (path "/f4aab422-c542-43e3-8476-eae6a2df1847/985c1764-9529-4a96-b11d-300a6781bacf"
       (reference "R47") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/f4aab422-c542-43e3-8476-eae6a2df1847/bc88214e-07aa-453d-a4d6-d40e0ac901ec"
+      (reference "SW1") (unit 1) (value "SW_Push") (footprint "Gigahawk:SW_Push_1P1T_NO_CK_KMR2")
+    )
+    (path "/f4aab422-c542-43e3-8476-eae6a2df1847/c2e7fc5a-7e19-4013-9cc0-20f3b3210d10"
+      (reference "SW2") (unit 1) (value "SW_Push") (footprint "Gigahawk:SW_Push_1P1T_NO_CK_KMR2")
     )
     (path "/f4aab422-c542-43e3-8476-eae6a2df1847/dc354bb6-7b51-4421-92e0-ea2af5ff7fbb"
       (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")

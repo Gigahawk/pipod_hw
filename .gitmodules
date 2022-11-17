@@ -4,3 +4,6 @@
 [submodule "lcsc-kicad"]
 	path = lcsc-kicad
 	url = https://github.com/Gigahawk/lcsc-kicad.git
+[submodule "scripts/kicad_parser"]
+	path = scripts/kicad_parser
+	url = https://github.com/realthunder/kicad_parser.git
