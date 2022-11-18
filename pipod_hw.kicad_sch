@@ -1407,6 +1407,12 @@
     (path "/f4aab422-c542-43e3-8476-eae6a2df1847/985c1764-9529-4a96-b11d-300a6781bacf"
       (reference "R47") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
+    (path "/f4aab422-c542-43e3-8476-eae6a2df1847/925730e4-95c9-4c63-8650-486fa63f2212"
+      (reference "R48") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/b0bb8e22-3ad5-4c36-b10d-7d4a51e22334/e7ff1e5e-2786-451f-969b-334e92695433"
+      (reference "R49") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
     (path "/f4aab422-c542-43e3-8476-eae6a2df1847/bc88214e-07aa-453d-a4d6-d40e0ac901ec"
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "Gigahawk:SW_Push_1P1T_NO_CK_KMR2")
     )
