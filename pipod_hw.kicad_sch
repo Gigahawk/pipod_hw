@@ -1044,6 +1044,9 @@
     (path "/f4aab422-c542-43e3-8476-eae6a2df1847/f0226c4c-3d26-444f-b8c4-b9528f9282f3"
       (reference "#PWR0143") (unit 1) (value "GND") (footprint "")
     )
+    (path "/f4aab422-c542-43e3-8476-eae6a2df1847/9396f9fd-a06e-4ae3-a3dc-70a273dc2ed3"
+      (reference "#PWR0144") (unit 1) (value "GND") (footprint "")
+    )
     (path "/9641055c-ce4b-4f2f-881f-d2622ca62ef8/e768d9dc-f7c9-45e3-99e1-a1498a2ff958"
       (reference "C1") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
@@ -1220,6 +1223,9 @@
     )
     (path "/9641055c-ce4b-4f2f-881f-d2622ca62ef8/e7e08f0d-0401-4d29-a4e8-dfef060e3f5c"
       (reference "D3") (unit 1) (value "GRN") (footprint "LED_SMD:LED_0402_1005Metric")
+    )
+    (path "/f4aab422-c542-43e3-8476-eae6a2df1847/82fe1690-1880-4394-ad98-1026f56d4786"
+      (reference "D4") (unit 1) (value "GRN") (footprint "LED_SMD:LED_0402_1005Metric")
     )
     (path "/1b9367eb-6062-4145-acac-45f8e2b4ead5/7a2d642d-f5b4-4e89-95a2-88a1486a2af5"
       (reference "DISP1") (unit 1) (value "STP240320_0200B") (footprint "Connector_Molex:Molex_SlimStack_54722-0164_2x08_P0.50mm_Vertical")
@@ -1413,6 +1419,9 @@
     (path "/b0bb8e22-3ad5-4c36-b10d-7d4a51e22334/e7ff1e5e-2786-451f-969b-334e92695433"
       (reference "R49") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
+    (path "/f4aab422-c542-43e3-8476-eae6a2df1847/ee493bfc-8e80-46aa-a3a1-76df0d8c18c2"
+      (reference "R50") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
     (path "/f4aab422-c542-43e3-8476-eae6a2df1847/bc88214e-07aa-453d-a4d6-d40e0ac901ec"
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "Gigahawk:SW_Push_1P1T_NO_CK_KMR2")
     )
@@ -1517,6 +1526,9 @@
     )
     (path "/b7d431dc-5594-4595-8c63-4633098b8c6b/6a1d8af7-71ef-4992-a8f2-32dff4531b43"
       (reference "TP33") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/f4aab422-c542-43e3-8476-eae6a2df1847/d0f00baa-a96e-436a-8923-76aafa7e5ef5"
+      (reference "TP34") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/9641055c-ce4b-4f2f-881f-d2622ca62ef8/f712dca8-d825-42b9-bc64-c896c523d0a2"
       (reference "U1") (unit 1) (value "MAX17048G+T10") (footprint "Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP0.6x1.2mm")
