@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "piPod IO/SMC Board")
+    (date "${DATE}")
+    (rev "%{TAG} (${REVISION})")
+  )
+
   (lib_symbols
     (symbol "Connector:USB_C_Receptacle_USB2.0" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J7" (id 0) (at 0 22.86 0)

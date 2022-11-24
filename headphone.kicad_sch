@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "piPod IO/SMC Board")
+    (date "${DATE}")
+    (rev "%{TAG} (${REVISION})")
+  )
+
   (lib_symbols
     (symbol "Device:R_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "R" (id 0) (at 0.762 0.508 0)
@@ -773,7 +779,7 @@
     (uuid 0487b507-c9a1-41bc-859b-2c8e3fe6b107)
     (property "Reference" "Q2" (id 0) (at 181.865 95.25 90))
     (property "Value" "NTK3139PT1G" (id 1) (at 181.865 97.79 90))
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-723" (id 2) (at 193.04 104.14 0)
+    (property "Footprint" "Gigahawk:SOT-723" (id 2) (at 193.04 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ntk3139p-d.pdf" (id 3) (at 195.58 104.14 0)

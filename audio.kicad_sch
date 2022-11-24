@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "piPod IO/SMC Board")
+    (date "${DATE}")
+    (rev "%{TAG} (${REVISION})")
+  )
+
   (lib_symbols
     (symbol "Audio:PCM5102" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -10.16 13.97 0)
@@ -1150,7 +1156,7 @@
     (uuid 1c663c89-7f7d-47bf-9f9e-bb09a858cbfa)
     (property "Reference" "U14" (id 0) (at 222.25 54.61 0))
     (property "Value" "PAM8908JER" (id 1) (at 233.68 88.9 0))
-    (property "Footprint" "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm" (id 2) (at 222.25 91.44 0)
+    (property "Footprint" "Gigahawk:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm" (id 2) (at 222.25 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://lcsc.com/product-detail/Audio-Power-OpAmps_Diodes-Incorporated_PAM8908JER_Diodes-Incorporated-PAM8908JER_C33233.html" (id 3) (at 222.25 93.98 0)

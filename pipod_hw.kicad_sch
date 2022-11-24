@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "piPod IO/SMC Board")
+    (date "${DATE}")
+    (rev "%{TAG} (${REVISION})")
+  )
+
   (lib_symbols
     (symbol "gigahawk:9774040243R" (in_bom yes) (on_board yes)
       (property "Reference" "H" (id 0) (at 0 5.08 0)
@@ -1261,13 +1267,13 @@
       (reference "J7") (unit 1) (value "S7051-42R") (footprint "Gigahawk:S705142R")
     )
     (path "/9641055c-ce4b-4f2f-881f-d2622ca62ef8/e2753e1f-594c-47fc-9a68-ae587552bc7e"
-      (reference "L1") (unit 1) (value "1u") (footprint "Inductor_SMD:L_Vishay_IFSC-1515AH_4x4x1.8mm")
+      (reference "L1") (unit 1) (value "1u") (footprint "Gigahawk:L_Vishay_IFSC-1515AH_4x4x1.8mm")
     )
     (path "/9641055c-ce4b-4f2f-881f-d2622ca62ef8/5722c5c4-8626-446d-9666-d9813f74a54f"
       (reference "Q1") (unit 1) (value "DMG9926UDM") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/eadbe3e2-ad3f-4ca7-9baa-62c6cdfbb2dc/0487b507-c9a1-41bc-859b-2c8e3fe6b107"
-      (reference "Q2") (unit 1) (value "NTK3139PT1G") (footprint "Package_TO_SOT_SMD:SOT-723")
+      (reference "Q2") (unit 1) (value "NTK3139PT1G") (footprint "Gigahawk:SOT-723")
     )
     (path "/1b9367eb-6062-4145-acac-45f8e2b4ead5/c3a6728c-dacb-445c-9f4d-b321b21cbd2e"
       (reference "Q3") (unit 1) (value "BSS138") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -1531,10 +1537,10 @@
       (reference "TP34") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/9641055c-ce4b-4f2f-881f-d2622ca62ef8/f712dca8-d825-42b9-bc64-c896c523d0a2"
-      (reference "U1") (unit 1) (value "MAX17048G+T10") (footprint "Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP0.6x1.2mm")
+      (reference "U1") (unit 1) (value "MAX17048G+T10") (footprint "Gigahawk:DFN-8-1EP_2x2mm_P0.5mm_EP0.6x1.2mm")
     )
     (path "/9641055c-ce4b-4f2f-881f-d2622ca62ef8/ab8b469c-69ca-4be9-a595-0f9e9bfbc4ba"
-      (reference "U2") (unit 1) (value "MAX8903AETI+T") (footprint "Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.4mm_EP2.6x2.6mm")
+      (reference "U2") (unit 1) (value "MAX8903AETI+T") (footprint "Gigahawk:QFN-28-1EP_4x4mm_P0.4mm_EP2.6x2.6mm")
     )
     (path "/9641055c-ce4b-4f2f-881f-d2622ca62ef8/9364adad-fb7b-44df-8a98-69b3dbbbb081"
       (reference "U3") (unit 1) (value "BQ29728DSER") (footprint "Package_SON:WSON-6_1.5x1.5mm_P0.5mm")
@@ -1543,7 +1549,7 @@
       (reference "U4") (unit 1) (value "XC6210B332MR") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/f4aab422-c542-43e3-8476-eae6a2df1847/a1cd96cb-1cf2-42af-8049-9350ef4d78e3"
-      (reference "U5") (unit 1) (value "W25Q128JVS") (footprint "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm")
+      (reference "U5") (unit 1) (value "W25Q128JVS") (footprint "Gigahawk:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm")
     )
     (path "/f4aab422-c542-43e3-8476-eae6a2df1847/ec102973-8c1e-44ac-b5ab-fa9e9ce69d0a"
       (reference "U6") (unit 1) (value "RP2040") (footprint "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm")
@@ -1552,7 +1558,7 @@
       (reference "U7") (unit 1) (value "NLAS7242MUTBG") (footprint "Package_DFN_QFN:UQFN-10_1.4x1.8mm_P0.4mm")
     )
     (path "/1b9367eb-6062-4145-acac-45f8e2b4ead5/0808eb40-03d1-411a-82f9-5b336472169f"
-      (reference "U8") (unit 1) (value "RS2299XTQC16") (footprint "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm")
+      (reference "U8") (unit 1) (value "RS2299XTQC16") (footprint "Gigahawk:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm")
     )
     (path "/17277ecf-326c-453e-9136-7d67138ec3e0/c8169392-03f0-4aa3-91e4-e02ade2584f2"
       (reference "U9") (unit 1) (value "TPS22965TDSGRQ1") (footprint "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm")
@@ -1570,13 +1576,13 @@
       (reference "U13") (unit 1) (value "PCM5102APWR") (footprint "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm")
     )
     (path "/47c80a0b-4e54-4420-855d-26a9531e4652/1c663c89-7f7d-47bf-9f9e-bb09a858cbfa"
-      (reference "U14") (unit 1) (value "PAM8908JER") (footprint "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm")
+      (reference "U14") (unit 1) (value "PAM8908JER") (footprint "Gigahawk:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm")
     )
     (path "/b0bb8e22-3ad5-4c36-b10d-7d4a51e22334/2d1b5162-5ef3-4603-8719-3fe186178dd4"
-      (reference "U15") (unit 1) (value "MCP23008-E/ML") (footprint "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.7x2.7mm")
+      (reference "U15") (unit 1) (value "MCP23008-E/ML") (footprint "Gigahawk:QFN-20-1EP_4x4mm_P0.5mm_EP2.7x2.7mm")
     )
     (path "/f4aab422-c542-43e3-8476-eae6a2df1847/a57c84b5-5d55-414c-b5d7-cf18bbcbc814"
-      (reference "Y1") (unit 1) (value "12MHz 20pF") (footprint "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm")
+      (reference "Y1") (unit 1) (value "12MHz 20pF") (footprint "Gigahawk:Crystal_SMD_2520-4Pin_2.5x2.0mm")
     )
   )
 )

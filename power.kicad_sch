@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "piPod IO/SMC Board")
+    (date "${DATE}")
+    (rev "%{TAG} (${REVISION})")
+  )
+
   (lib_symbols
     (symbol "Battery_Management:BQ297xy" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -6.35 6.35 0)
@@ -2862,7 +2868,7 @@
     (uuid ab8b469c-69ca-4be9-a595-0f9e9bfbc4ba)
     (property "Reference" "U2" (id 0) (at 113.03 33.02 0))
     (property "Value" "MAX8903AETI+T" (id 1) (at 113.03 35.56 0))
-    (property "Footprint" "Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.4mm_EP2.6x2.6mm" (id 2) (at 113.03 52.07 0)
+    (property "Footprint" "Gigahawk:QFN-28-1EP_4x4mm_P0.4mm_EP2.6x2.6mm" (id 2) (at 113.03 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX8903A.pdf" (id 3) (at 113.03 52.07 0)
@@ -3191,7 +3197,7 @@
     (uuid e2753e1f-594c-47fc-9a68-ae587552bc7e)
     (property "Reference" "L1" (id 0) (at 110.49 87.63 90))
     (property "Value" "1u" (id 1) (at 110.49 90.17 90))
-    (property "Footprint" "Inductor_SMD:L_Vishay_IFSC-1515AH_4x4x1.8mm" (id 2) (at 110.49 86.36 0)
+    (property "Footprint" "Gigahawk:L_Vishay_IFSC-1515AH_4x4x1.8mm" (id 2) (at 110.49 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.vishay.com/docs/34295/sc15ah01.pdf" (id 3) (at 110.49 86.36 0)
@@ -3378,7 +3384,7 @@
     (uuid f712dca8-d825-42b9-bc64-c896c523d0a2)
     (property "Reference" "U1" (id 0) (at 62.865 147.32 0))
     (property "Value" "MAX17048G+T10" (id 1) (at 62.865 149.86 0))
-    (property "Footprint" "Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP0.6x1.2mm" (id 2) (at 62.865 172.72 0)
+    (property "Footprint" "Gigahawk:DFN-8-1EP_2x2mm_P0.5mm_EP0.6x1.2mm" (id 2) (at 62.865 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://lcsc.com/product-detail/Battery-Management-ICs_Maxim-Integrated-MAX17048G-T10_C2682616.html" (id 3) (at 62.865 160.02 0)

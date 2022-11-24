@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "piPod IO/SMC Board")
+    (date "${DATE}")
+    (rev "%{TAG} (${REVISION})")
+  )
+
   (lib_symbols
     (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (id 0) (at 0 6.858 0)
@@ -1096,7 +1102,7 @@
     (property "Value" "MCP23008-E/ML" (id 1) (at 170.9294 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.7x2.7mm" (id 2) (at 168.91 114.3 0)
+    (property "Footprint" "Gigahawk:QFN-20-1EP_4x4mm_P0.5mm_EP2.7x2.7mm" (id 2) (at 168.91 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP23008-MCP23S08-Data-Sheet-20001919F.pdf" (id 3) (at 201.93 118.11 0)
