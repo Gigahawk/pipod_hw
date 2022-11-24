@@ -117,8 +117,8 @@ outputs:
       - field: LCSC#
         name: 'LCSC Part #'
       csv:
-        hide_pcb_info: true
-        hide_stats_info: true
+        hide_pcb_info: false
+        hide_stats_info: false
         quote_all: true
       count_smd_tht: true
 
