@@ -110,6 +110,10 @@ outputs:
       - field: References
         name: Designator
       - Footprint
+      - field: Footprint Side
+        name: Side
+      - field: Footprint Type
+        name: Type
       - field: LCSC#
         name: 'LCSC Part #'
       csv:
