@@ -100,6 +100,7 @@
         "invalid_outline|11282000|96100000|3d416885-b8b5-4f5c-bc29-39c6376095e8|00000000-0000-0000-0000-000000000000",
         "invalid_outline|21650000|11020000|a6706c54-6a82-42d1-a6c9-48341690e19d|692d87e9-6b70-46cc-9c78-b75193a484cc",
         "invalid_outline|300000|42200000|ea28e946-b74f-4ba8-ac7b-b1884c5e7296|09c6ca89-863f-42d4-867e-9a769c316610",
+        "invalid_outline|37950000|5550000|961b4579-9ee8-407a-89a7-81f36f1ad865|883105b0-f6a6-466b-ba58-a2fcc1f18e4b",
         "invalid_outline|38750000|0|acb0068c-c0e7-44cf-a209-296716acb6a2|bde3f73b-f869-498d-a8d7-18346cb7179e",
         "invalid_outline|39000000|96100000|34a11a07-8b7f-45d2-96e3-89fd43e62756|3d416885-b8b5-4f5c-bc29-39c6376095e8",
         "invalid_outline|42581683|96775337|f8621ac5-1e7e-4e87-8c69-5fd403df9470|00000000-0000-0000-0000-000000000000",
@@ -110,7 +111,10 @@
         "invalid_outline|53700000|85750000|adcbf4d0-ed9c-4c7d-b78f-3bcbe974bdcb|73f40fda-e6eb-4f93-9482-56cf47d84a87",
         "invalid_outline|54100000|35600000|e80b0e91-f15f-4e36-9a9c-b2cfd5a01d2a|d6040293-95f0-436a-938c-ad69875a4be8",
         "invalid_outline|54100000|37300000|94c3d0e3-d7fb-421d-bbb4-5c800d76c809|e77c17df-b20e-4e7d-b937-f281c75a0014",
+        "invalid_outline|54100000|47300000|3656bb3f-f8a4-4f3a-8e9a-ec6203c87a56|94c3d0e3-d7fb-421d-bbb4-5c800d76c809",
+        "invalid_outline|54100000|5400000|725579dd-9ec6-473d-8843-6a11e99f108c|88a17e56-466a-45e7-9047-7346a507f505",
         "invalid_outline|54100000|5400000|88a17e56-466a-45e7-9047-7346a507f505|725579dd-9ec6-473d-8843-6a11e99f108c",
+        "invalid_outline|54100000|93500000|d2db53d0-2821-4ebe-bf21-b864eac8ca44|a323243c-4cab-4689-aa04-1e663cf86177",
         "invalid_outline|8218000|96100000|3198b8ca-7d11-4e0c-89a4-c173f9fcf724|fb9a832c-737d-49fb-bbb4-29a0ba3e8178",
         "silk_over_copper|18755000|96100000|3d416885-b8b5-4f5c-bc29-39c6376095e8|39243d70-affd-49ec-862f-024c1a45fba5",
         "silk_over_copper|27945000|96100000|3d416885-b8b5-4f5c-bc29-39c6376095e8|62fee58a-5a4b-4f7e-a7db-a7ec2266b4f3",
@@ -119,7 +123,9 @@
         "silk_over_copper|952000|94971679|fc4f0835-889b-4d2e-876e-ca524c79ae62|2d2134fc-04dc-41a0-88f2-a691a7c0b23c",
         "track_dangling|39050489|32697000|810bd70c-02d0-44fc-8169-4a5b318eb457|00000000-0000-0000-0000-000000000000",
         "via_dangling|6546000|43848000|612f7b82-5259-4e2d-96cf-8c9aacf79e29|00000000-0000-0000-0000-000000000000",
-        "via_dangling|7373837|43208000|27032335-5fc6-4313-9e25-3a4dc6b300ed|00000000-0000-0000-0000-000000000000"
+        "via_dangling|6570000|43890000|8768ebf1-7fd4-45fe-b17d-03bf69c99bc3|00000000-0000-0000-0000-000000000000",
+        "via_dangling|7373837|43208000|27032335-5fc6-4313-9e25-3a4dc6b300ed|00000000-0000-0000-0000-000000000000",
+        "via_dangling|7910000|43160000|fc08777f-d678-4bc4-8021-8a14b6505c88|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -175,7 +181,7 @@
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.19999999999999998,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.15,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.44999999999999996,
@@ -477,8 +483,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.35,
-        "via_diameter": 0.5,
-        "via_drill": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6.0
       },
       {
@@ -607,8 +613,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.16,
-        "via_diameter": 0.5,
-        "via_drill": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6.0
       },
       {
@@ -634,8 +640,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.20954,
-        "via_diameter": 0.5,
-        "via_drill": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6.0
       }
     ],
