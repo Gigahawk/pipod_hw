@@ -114,6 +114,8 @@ outputs:
         name: Side
       - field: Footprint Type
         name: Type
+      - field: Footprint Populate
+        name: Populate
       - field: LCSC#
         name: 'LCSC Part #'
       csv:
