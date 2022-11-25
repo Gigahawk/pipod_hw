@@ -742,8 +742,8 @@
     ]
   ],
   "text_variables": {
-    "DATE": "YYYY-MM-DD HH:MM:SS",
-    "REVISION": "REVISION",
+    "DATE": "",
+    "REVISION": "ede2ee3",
     "TAG": "TAG"
   }
 }

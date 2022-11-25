@@ -116,13 +116,14 @@ outputs:
         name: Type
       - field: Footprint Populate
         name: Populate
-      - field: LCSC#
-        name: 'LCSC Part #'
+      - LCSC Part
       csv:
         hide_pcb_info: false
         hide_stats_info: false
         quote_all: true
       count_smd_tht: true
+      exclude_marked_in_pcb: false
+      exclude_marked_in_sch: false
 
   - name: JLCPCB
     comment: ZIP file for JLCPCB
