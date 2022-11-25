@@ -115,6 +115,7 @@ outputs:
       - Digikey Part
       - LCSC Part
       - Mouser Part
+      - Quantity Per PCB
       csv:
         hide_pcb_info: false
         hide_stats_info: false
