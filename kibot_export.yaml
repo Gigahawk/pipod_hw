@@ -11,7 +11,6 @@ preflight:
       command: 'git describe --tags --abbrev=0 --exact-match 2>/dev/null; exit 0'
 
 outputs:
-
   - name: JLCPCB_gerbers
     comment: Gerbers compatible with JLCPCB
     type: gerber
@@ -102,7 +101,6 @@ outputs:
     dir: Manufacturers/JLCPCB
     options:
       output: '%f_%i_jlc.%x'
-      #exclude_filter: only_jlc_parts
       ref_separator: ','
       columns:
       - field: Value
@@ -122,8 +120,6 @@ outputs:
         hide_stats_info: false
         quote_all: true
       count_smd_tht: true
-      exclude_marked_in_pcb: false
-      exclude_marked_in_sch: false
 
   - name: JLCPCB
     comment: ZIP file for JLCPCB

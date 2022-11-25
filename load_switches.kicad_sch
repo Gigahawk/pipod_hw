@@ -1150,7 +1150,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 73.66 82.55 180) (unit 1)
-    (in_bom no) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 61b8d270-42b0-434c-9f0e-b26d7c829009)
     (property "Reference" "C29" (id 0) (at 76.2 81.2735 0)
       (effects (font (size 1.27 1.27)) (justify right))
