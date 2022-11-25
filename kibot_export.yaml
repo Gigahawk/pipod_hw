@@ -12,10 +12,10 @@ preflight:
 
 outputs:
 
-  - name: JLCPCB_gerbers
-    comment: Gerbers compatible with JLCPCB
+  - name: PCBWay_gerbers
+    comment: Gerbers compatible with PCBWay
     type: gerber
-    dir: Manufacturers/JLCPCB
+    dir: Manufacturers/PCBWay
     options:
       exclude_edge_layer: true
       exclude_pads_from_silkscreen: true
@@ -61,10 +61,10 @@ outputs:
     - layer: Edge.Cuts
       suffix: Edge_Cuts
       description: Board shape
-  - name: JLCPCB_drill
-    comment: Drill files compatible with JLCPCB
+  - name: PCBWay_drill
+    comment: Drill files compatible with PCBWay
     type: excellon
-    dir: Manufacturers/JLCPCB
+    dir: Manufacturers/PCBWay
     options:
       pth_and_npth_single_file: false
       pth_id: -PTH
@@ -73,12 +73,12 @@ outputs:
       map: gerber
       route_mode_for_oval_holes: false
       output: '%f%i.%x'
-  - name: JLCPCB_position
-    comment: Pick and place file, JLCPCB style
+  - name: PCBWay_position
+    comment: Pick and place file, PCBWay style
     type: position
-    dir: Manufacturers/JLCPCB
+    dir: Manufacturers/PCBWay
     options:
-      output: '%f_cpl_jlc.%x'
+      output: '%f_cpl_pcbway.%x'
       format: CSV
       units: millimeters
       separate_files_for_front_and_back: false
@@ -96,13 +96,12 @@ outputs:
         name: Rotation
       - id: Side
         name: Layer
-  - name: JLCPCB_bom
-    comment: BoM for JLCPCB
+  - name: PCBWay_bom
+    comment: BoM for PCBWay
     type: bom
-    dir: Manufacturers/JLCPCB
+    dir: Manufacturers/PCBWay
     options:
-      output: '%f_%i_jlc.%x'
-      #exclude_filter: only_jlc_parts
+      output: '%f_%i_pcbway.%x'
       ref_separator: ','
       columns:
       - Value
@@ -122,23 +121,29 @@ outputs:
         quote_all: true
       count_smd_tht: true
 
-  - name: JLCPCB
-    comment: ZIP file for JLCPCB
+  - name: PCBWay
+    comment: ZIP file for PCBWay
     type: compress
     dir: Manufacturers
     options:
       files:
-      - from_output: JLCPCB_gerbers
+      - from_output: PCBWay_gerbers
         dest: /
-      - from_output: JLCPCB_drill
+      - from_output: PCBWay_drill
         dest: /
-      - from_output: JLCPCB_position
+      - from_output: PCBWay_position
         dest: /
-      - from_output: JLCPCB_bom
+      - from_output: PCBWay_bom
         dest: /
 
-
-  - name: basic_pdf_sch_print
+  - name: pdf_sch_print
     comment: Schematic in PDF format
     type: pdf_sch_print
     dir: Schematic
+
+  - name: boardview
+    comment: Exports the PCB in board view format.
+    type: boardview
+    dir: 'BoardView'
+    options:
+      output: '%f-%i%I%v.%x'
