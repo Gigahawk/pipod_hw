@@ -33,34 +33,29 @@ outputs:
       line_width: 0.1
       subtract_mask_from_silk: true
       inner_extension_pattern: .gp%n
-    layers: &pcb_layers
-    - layer: F.Cu
-      suffix: F_Cu
-      description: Front copper
-    - layer: B.Cu
-      suffix: B_Cu
-      description: Bottom copper
-    - layer: B.Paste
-      suffix: B_Paste
-      description: Bottom solder paste
-    - layer: F.Paste
-      suffix: F_Paste
-      description: Front solder paste
-    - layer: B.Silkscreen
-      suffix: B_Silkscreen
-      description: Bottom silkscreen (artwork)
-    - layer: F.Silkscreen
-      suffix: F_Silkscreen
-      description: Front silkscreen (artwork)
-    - layer: B.Mask
-      suffix: B_Mask
-      description: Bottom soldermask (negative)
-    - layer: F.Mask
-      suffix: F_Mask
-      description: Front soldermask (negative)
-    - layer: Edge.Cuts
-      suffix: Edge_Cuts
-      description: Board shape
+    layers:
+      - copper
+      - layer: B.Paste
+        suffix: B_Paste
+        description: Bottom solder paste
+      - layer: F.Paste
+        suffix: F_Paste
+        description: Front solder paste
+      - layer: B.Silkscreen
+        suffix: B_Silkscreen
+        description: Bottom silkscreen (artwork)
+      - layer: F.Silkscreen
+        suffix: F_Silkscreen
+        description: Front silkscreen (artwork)
+      - layer: B.Mask
+        suffix: B_Mask
+        description: Bottom soldermask (negative)
+      - layer: F.Mask
+        suffix: F_Mask
+        description: Front soldermask (negative)
+      - layer: Edge.Cuts
+        suffix: Edge_Cuts
+        description: Board shape
   - name: PCBWay_drill
     comment: Drill files compatible with PCBWay
     type: excellon
