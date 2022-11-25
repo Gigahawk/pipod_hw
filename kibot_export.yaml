@@ -10,13 +10,8 @@ preflight:
     - name: 'TAG'
       command: 'git describe --tags --abbrev=0 --exact-match 2>/dev/null; exit 0'
 
-filters:
-  - name: only_smd
-    type: generic
-    exclude_virtual: true
-    exclude_tht: true
-
 outputs:
+
   - name: JLCPCB_gerbers
     comment: Gerbers compatible with JLCPCB
     type: gerber
@@ -107,6 +102,7 @@ outputs:
     dir: Manufacturers/JLCPCB
     options:
       output: '%f_%i_jlc.%x'
+      #exclude_filter: only_jlc_parts
       ref_separator: ','
       columns:
       - field: Value
@@ -127,7 +123,6 @@ outputs:
         hide_stats_info: false
         quote_all: true
       count_smd_tht: true
-      dnf_filter: only_smd
 
   - name: JLCPCB
     comment: ZIP file for JLCPCB
