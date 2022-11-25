@@ -105,19 +105,16 @@ outputs:
       #exclude_filter: only_jlc_parts
       ref_separator: ','
       columns:
-      - field: Value
-        name: Comment
-      - field: References
-        name: Designator
+      - Value
+      - References
       - Footprint
-      - field: Footprint Side
-        name: Side
-      - field: Footprint Type
-        name: Type
-      - field: Footprint Populate
-        name: Populate
-      - field: LCSC#
-        name: 'LCSC Part #'
+      - Footprint Side
+      - Footprint Type
+      - Manufacturer
+      - Manufacturer Part
+      - Digikey Part
+      - LCSC Part
+      - Mouser Part
       csv:
         hide_pcb_info: false
         hide_stats_info: false

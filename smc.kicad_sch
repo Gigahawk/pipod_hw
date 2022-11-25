@@ -3413,7 +3413,7 @@
     (property "Digikey Price/Stock" "https://www.digikey.ca/en/products/detail/raspberry-pi/SC0914-13/14306010" (id 9) (at 185.42 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mouser Part" "RPI Chip RP2040-7-500 " (id 10) (at 185.42 99.06 0)
+    (property "Mouser Part" "RPI Chip RP2040-7-500" (id 10) (at 185.42 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Mouser Price/Stock" "https://www.mouser.ca/ProductDetail/Raspberry-Pi/RPI-Chip-RP2040-7-500?qs=QNEnbhJQKvaZH1bqQMV2YA%3D%3D" (id 11) (at 185.42 99.06 0)
