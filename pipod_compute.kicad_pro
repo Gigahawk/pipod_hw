@@ -427,6 +427,9 @@
         "name": "SIGNAL",
         "nets": [
           "HP_SL_VIDEO",
+          "HWID0",
+          "HWID1",
+          "HWID2",
           "Net-(A1-Pad11)",
           "Net-(D1-Pad1)",
           "PI_DISP_DC",
